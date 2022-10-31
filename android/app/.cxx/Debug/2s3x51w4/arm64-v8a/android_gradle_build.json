@@ -1,0 +1,56 @@
+{
+  "buildFiles": [
+    "/Users/mac/Documents/NativeModule/android/app/src/main/jni/CMakeLists.txt",
+    "/Users/mac/Documents/NativeModule/node_modules/react-native/ReactAndroid/src/main/jni/first-party/fbjni/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/mac/Library/Android/sdk/cmake/3.18.1/bin/ninja",
+      "-C",
+      "/Users/mac/Documents/NativeModule/android/app/.cxx/Debug/2s3x51w4/arm64-v8a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/mac/Library/Android/sdk/cmake/3.18.1/bin/ninja",
+    "-C",
+    "/Users/mac/Documents/NativeModule/android/app/.cxx/Debug/2s3x51w4/arm64-v8a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "nativemodule_appmodules::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "nativemodule_appmodules",
+      "output": "/Users/mac/Documents/NativeModule/android/app/build/intermediates/cxx/Debug/2s3x51w4/obj/arm64-v8a/libnativemodule_appmodules.so",
+      "runtimeFiles": [
+        "/Users/mac/Documents/NativeModule/android/app/build/react-ndk/exported/arm64-v8a/libfabricjni.so",
+        "/Users/mac/Documents/NativeModule/node_modules/react-native/ReactAndroid/src/main/jni/first-party/fbjni/jni/arm64-v8a/libfbjni.so",
+        "/Users/mac/Documents/NativeModule/android/app/build/react-ndk/exported/arm64-v8a/libglog.so",
+        "/Users/mac/Documents/NativeModule/android/app/build/react-ndk/exported/arm64-v8a/libjsi.so",
+        "/Users/mac/Documents/NativeModule/android/app/build/react-ndk/exported/arm64-v8a/libreact_codegen_rncore.so",
+        "/Users/mac/Documents/NativeModule/android/app/build/react-ndk/exported/arm64-v8a/libreact_debug.so",
+        "/Users/mac/Documents/NativeModule/android/app/build/react-ndk/exported/arm64-v8a/libreact_nativemodule_core.so",
+        "/Users/mac/Documents/NativeModule/android/app/build/react-ndk/exported/arm64-v8a/libreact_render_componentregistry.so",
+        "/Users/mac/Documents/NativeModule/android/app/build/react-ndk/exported/arm64-v8a/libreact_render_core.so",
+        "/Users/mac/Documents/NativeModule/android/app/build/react-ndk/exported/arm64-v8a/libreact_render_debug.so",
+        "/Users/mac/Documents/NativeModule/android/app/build/react-ndk/exported/arm64-v8a/libreact_render_graphics.so",
+        "/Users/mac/Documents/NativeModule/android/app/build/react-ndk/exported/arm64-v8a/librrc_view.so",
+        "/Users/mac/Documents/NativeModule/android/app/build/react-ndk/exported/arm64-v8a/libruntimeexecutor.so",
+        "/Users/mac/Documents/NativeModule/android/app/build/react-ndk/exported/arm64-v8a/libturbomodulejsijni.so",
+        "/Users/mac/Documents/NativeModule/android/app/build/react-ndk/exported/arm64-v8a/libyoga.so",
+        "/Users/mac/Documents/NativeModule/android/app/build/react-ndk/exported/arm64-v8a/libfolly_runtime.so"
+      ]
+    }
+  },
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "/Users/mac/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+      "cppCompilerExecutable": "/Users/mac/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}
